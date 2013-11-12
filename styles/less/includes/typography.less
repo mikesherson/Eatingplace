@@ -1,0 +1,46 @@
+@import: 'brand.less';
+
+a:link {
+  font-family:@headingFont;
+  color: @lightBrown;
+  text-decoration: none;
+}
+a:hover {
+        color: @darkBrown;
+        text-decoration: underline;
+}
+a:visited {
+        color: darken(@lightBrown, 35%);
+        text-decoration: none;
+}
+
+p {
+  font-size: 1em;
+  margin-bottom: 1.5em;
+  line-height: 1.5em;
+}
+
+h1{
+  font-family:@titleFont;
+  color:@cream;
+  font-size: 3em;
+  text-shadow:2px 2px @darkBrown;
+}
+h2, h3, h4 {
+  font-family: @headingFont;
+  line-height: 1em;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  color:@cream;
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.2em;
+}

@@ -1,0 +1,460 @@
+a:link {
+  font-family: 'Engagement', cursive;
+  color: #bc6629;
+  text-decoration: none;
+}
+a:hover {
+  color: #2c2012;
+  text-decoration: underline;
+}
+a:visited {
+  color: #291609;
+  text-decoration: none;
+}
+p {
+  font-size: 1em;
+  margin-bottom: 1.5em;
+  line-height: 1.5em;
+}
+h1 {
+  font-family: 'Orbitron', 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+  color: #fcfbe0;
+  font-size: 3em;
+  text-shadow: 2px 2px #2c2012;
+}
+h2,
+h3,
+h4 {
+  font-family: 'Engagement', cursive;
+  line-height: 1em;
+  margin-bottom: 0.5em;
+}
+h2 {
+  color: #fcfbe0;
+  font-size: 3em;
+}
+h3 {
+  font-size: 1.5em;
+}
+h4 {
+  font-size: 1.2em;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fcfbe0;
+  font-family: 'PT Sans', 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+  font-size: 1em;
+  color: #fcfbe0;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+#nav {
+  position: fixed;
+  float: left;
+  display: inline-block;
+  width: 100%;
+  margin: 15px auto;
+  background-color: rgba(254, 254, 247, 0.9);
+}
+#nav .menuButton {
+  display: none;
+}
+#nav .border {
+  border-top: 3px dashed #bc6629;
+  border-bottom: 3px dashed #bc6629;
+  margin: 5px;
+}
+#nav #mainNav {
+  float: left;
+  display: inline-block;
+  width: 80%;
+}
+#nav #mainNav .menuButton {
+  display: none;
+}
+#nav #mainNav ul {
+  color: #2c2012;
+  float: left;
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 0 0px;
+  padding: 15px 0 0;
+}
+#nav #mainNav ul li {
+  display: inline-block;
+  padding: 0 8%;
+}
+#nav #socialMedia {
+  float: left;
+  display: inline-block;
+  width: 20%;
+}
+#nav #socialMedia ul {
+  float: left;
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+}
+#nav #socialMedia ul li {
+  display: inline-block;
+  padding: 10px 3% 0;
+}
+.logo {
+  position: fixed;
+  float: left;
+  background-color: #fcfbe0;
+  width: 95px;
+  height: 110px;
+  margin: 0;
+  padding-bottom: 5px;
+  border-left: 5px solid #2c2012;
+  border-right: 5px solid #2c2012;
+  border-bottom: 5px solid #2c2012;
+}
+header#intro {
+  background-image: url('../images/index/background.jpg');
+  background-size: cover;
+  background-position: centre;
+  height: 680px;
+}
+header#intro h1.headline {
+  width: 60%;
+  font-size: 3.3em;
+  margin: 180px auto 50px;
+  line-height: 1.3em;
+}
+.content {
+  padding: 20px 0;
+}
+section#about {
+  background-color: #bc6629;
+  padding-top: 50px;
+}
+section#about .content {
+  float: left;
+  display: inline-block;
+  width: 45%;
+}
+section#about #image {
+  float: left;
+  display: inline-block;
+  width: 45%;
+  margin: 40px 60px 0 0;
+  float: right;
+  width: 320px;
+  border: 10px solid #fcfbe0;
+}
+footer#footer {
+  background-color: #2c2012;
+  padding: 15px 0 0 0;
+  font-size: 0.75em;
+}
+#Hero {
+  background-image: url('../images/contact/background.jpg');
+  background-size: cover;
+  background-position: top;
+  height: 660px;
+}
+label {
+  float: left;
+  display: inline-block;
+  width: 100%;
+}
+label .labelstyle {
+  display: inline-block;
+  padding: 7px;
+  margin: 7px 0;
+  width: 25%;
+  background-color: #bc6629;
+  color: #2c2012;
+}
+label input[type="text"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 50%;
+  border: 1px solid #2c2012;
+  color: #fff;
+  font-family: 'PT Sans', 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+  padding: 12px;
+  margin-left: -5px;
+  text-transform: uppercase;
+}
+label input[type="submit"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  float: left;
+  display: inline-block;
+  width: 50%;
+  font-family: 'Orbitron', 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+  text-transform: uppercase;
+  padding: 15px;
+  background-color: #2c2012;
+  border: 0 none;
+  color: #fcfbe0;
+  cursor: pointer;
+  margin-left: 215px;
+}
+#form {
+  margin: 150px 0 0 100px;
+  float: left;
+  display: inline-block;
+  width: 60%;
+  border-right: 2px solid #bc6629;
+}
+#form h2 {
+  color: #2c2012;
+}
+#form p {
+  font-family: 'Orbitron', 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+  color: #2c2012;
+  font-size: 1.1em;
+  margin: 0;
+}
+#side {
+  color: #2c2012;
+  text-align: left;
+  margin: 170px 0 0 0;
+  float: left;
+  display: inline-block;
+  width: 25%;
+  padding: 10px;
+}
+#side h3 {
+  margin-top: 40px;
+  border-bottom: 1px solid #bc6629;
+}
+#side p {
+  padding: 0;
+  font-size: 0.85em;
+  margin: 0;
+}
+section#gallery,
+section#gallery3 {
+  height: 650px;
+  background-color: #2c2012;
+}
+section#gallery h1,
+section#gallery3 h1 {
+  padding-top: 140px;
+}
+section#gallery ul li,
+section#gallery3 ul li {
+  float: left;
+  display: inline-block;
+  width: 30%;
+  margin: 7% 1% 7% 0;
+}
+section#gallery ul li img,
+section#gallery3 ul li img {
+  width: 100%;
+  border: 10px solid #fcfbe0;
+}
+section#gallery2,
+section#gallery4 {
+  height: 630px;
+  background-color: #fcfbe0;
+}
+section#gallery2 h1,
+section#gallery4 h1 {
+  padding-top: 140px;
+  color: #2c2012;
+}
+section#gallery2 ul li,
+section#gallery4 ul li {
+  float: left;
+  display: inline-block;
+  width: 30%;
+  margin: 7% 1% 7% 0;
+}
+section#gallery2 ul li img,
+section#gallery4 ul li img {
+  width: 100%;
+  border: 10px solid #2c2012;
+}
+@media only screen and (max-width: 1024px) {
+  .container {
+    padding: 10px 0px;
+    width: 95%;
+  }
+  .logo {
+    margin-top: -10px;
+  }
+  header#intro {
+    margin-top: -20px;
+  }
+  header#intro h1.headline {
+    float: left;
+    display: inline-block;
+    width: 100%;
+  }
+  #Hero input[type="submit"] {
+    margin-left: 195px;
+  }
+}
+@media only screen and (max-width: 600px) and (min-width: 320px) {
+  .container {
+    max-width: 95%;
+  }
+  header#intro {
+    height: 500px;
+  }
+  header#intro h1.headline {
+    font-size: 2.75em;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  #nav .menuButton {
+    margin: 10px 10px 0 0;
+    float: left;
+    display: inline-block;
+    width: 40%;
+    height: 32px;
+    text-align: right;
+  }
+  #nav #mainNav {
+    display: none;
+    float: left;
+    display: inline-block;
+    width: 100%;
+  }
+  #nav #mainNav ul {
+    padding: 5px 0;
+  }
+  #nav #mainNav ul:hover li {
+    display: block;
+  }
+  #nav #mainNav ul li {
+    display: block;
+    padding: 0;
+  }
+  #nav #mainNav ul .current {
+    display: block;
+  }
+  #nav #mainNav ul a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #fff;
+    padding: 20px 0;
+  }
+  #nav #socialMedia {
+    float: left;
+    display: inline-block;
+    width: 55%;
+    height: 30px;
+  }
+  section#about {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  section#about .content {
+    float: left;
+    display: inline-block;
+    width: 100%;
+  }
+  section#about #image {
+    margin: -20px 10px 10px 0;
+    width: 320px;
+  }
+  section#Hero {
+    background-Image: none;
+  }
+  section#Hero #form {
+    float: left;
+    display: inline-block;
+    width: 95%;
+    margin: 90px 0 10px 0;
+    border-right: none;
+  }
+  section#Hero #form label .labelstyle {
+    float: left;
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+  }
+  section#Hero #form label input[type="text"] {
+    padding: 25px;
+    width: 100%;
+    margin: 0;
+  }
+  section#Hero #form input[type="submit"] {
+    float: left;
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0 20px 0;
+  }
+  section#Hero #side {
+    float: left;
+    display: inline-block;
+    width: 95%;
+    text-align: center;
+    margin-top: -30px;
+  }
+  section#gallery2,
+  section#gallery4 {
+    height: 780px;
+  }
+  section#gallery2 .container,
+  section#gallery4 .container {
+    float: left;
+    display: inline-block;
+    width: 95%;
+  }
+  section#gallery2 h1,
+  section#gallery4 h1 {
+    font-size: 1.75em;
+    text-shadow: none;
+    padding: 30px 0;
+  }
+  section#gallery2 ul li,
+  section#gallery4 ul li {
+    float: left;
+    display: inline-block;
+    width: 100%;
+    margin: 2% 0 2% 0;
+  }
+  section#gallery2 ul li img,
+  section#gallery4 ul li img {
+    width: 80%;
+  }
+  section#gallery,
+  section#gallery3 {
+    height: 780px;
+  }
+  section#gallery .container,
+  section#gallery3 .container {
+    float: left;
+    display: inline-block;
+    width: 95%;
+  }
+  section#gallery #space,
+  section#gallery3 #space {
+    padding-top: 40px;
+  }
+  section#gallery h1,
+  section#gallery3 h1 {
+    font-size: 1.75em;
+    text-shadow: none;
+    padding: 40px 0 20px 0;
+  }
+  section#gallery ul li,
+  section#gallery3 ul li {
+    float: left;
+    display: inline-block;
+    width: 100%;
+    margin: 2% 0 2% 0;
+  }
+  section#gallery ul li img,
+  section#gallery3 ul li img {
+    width: 80%;
+  }
+}

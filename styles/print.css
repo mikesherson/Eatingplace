@@ -1,0 +1,79 @@
+a:link {
+  font-family: 'Engagement', cursive;
+  color: #bc6629;
+  text-decoration: none;
+}
+a:hover {
+  color: #2c2012;
+  text-decoration: underline;
+}
+a:visited {
+  color: #291609;
+  text-decoration: none;
+}
+p {
+  font-size: 1em;
+  margin-bottom: 1.5em;
+  line-height: 1.5em;
+}
+h1 {
+  font-family: 'Orbitron', 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+  color: #fcfbe0;
+  font-size: 3em;
+  text-shadow: 2px 2px #2c2012;
+}
+h2,
+h3,
+h4 {
+  font-family: 'Engagement', cursive;
+  line-height: 1em;
+  margin-bottom: 0.5em;
+}
+h2 {
+  color: #fcfbe0;
+  font-size: 3em;
+}
+h3 {
+  font-size: 1.5em;
+}
+h4 {
+  font-size: 1.2em;
+}
+h1 {
+  font-size: 1.5em;
+}
+h2 {
+  font-size: 1.3em;
+}
+#nav,
+.menuButton,
+.border,
+#mainNav,
+#form {
+  display: none;
+}
+.logo {
+  width: 45px;
+  height: 80px;
+}
+section#contact {
+  display: none;
+}
+section#gallery ul li,
+section#gallery2 ul li,
+section#gallery3 ul li,
+section#gallery4 ul li {
+  float: left;
+  display: inline-block;
+  width: 30%;
+}
+section#gallery ul li img,
+section#gallery2 ul li img,
+section#gallery3 ul li img,
+section#gallery4 ul li img {
+  width: 100%;
+}
+footer#footer {
+  float: left;
+  padding: 0;
+}

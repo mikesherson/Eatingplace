@@ -1,0 +1,407 @@
+@import 'includes/brand.less';
+@import 'includes/typography.less';
+@import 'includes/mixins.less';
+
+* {
+  .box-sizing;
+}
+
+body {
+  background-color: @cream;
+  font-family: @bodyFont;
+  font-size: 1em;
+  color: @cream;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+// nav styling
+
+
+#nav{
+	position:fixed;
+	.widthfloat(100%);
+	margin:15px auto;
+    @navbg:lighten(@cream,5%);
+  	background-color: fadeout(@navbg, 10%);
+
+  	.menuButton{
+		display:none;
+		}
+	.border{
+	    border-top: 3px dashed @lightBrown;
+	    border-bottom: 3px dashed @lightBrown;
+	    margin:5px;
+		}
+	#mainNav{
+		.widthfloat(80%);
+		.menuButton{
+			display:none;
+		}
+	    ul{
+	    	color:@darkBrown;
+			.widthfloat(100%);
+		   	margin:0 0 0 0px;
+		   	padding:15px 0 0;
+		   	li{
+	    		display:inline-block;
+	      		padding:0 8%;
+	      	}
+	  	}
+	}
+	#socialMedia{
+		.widthfloat(20%);
+  		ul{
+	    	.widthfloat(100%);
+	    	margin:0 auto;
+	    	li{
+	      		display:inline-block;
+	      		padding: 10px 3% 0;
+	      	}
+	  	}
+  	}
+}
+.logo{
+	position:fixed;
+	float:left;
+   	background-color:@cream;
+    width:95px;
+    height:110px;
+    margin:0;
+    padding-bottom:5px;
+    border-left: 5px solid @darkBrown;
+    border-right: 5px solid @darkBrown;
+    border-bottom: 5px solid @darkBrown;
+}
+
+// header styling
+
+header#intro{
+	background-image: url('../images/index/background.jpg');
+	background-size: cover;
+	background-position:centre;
+	height:680px;
+	
+	h1.headline{
+	    width: 60%;
+	    font-size:3.3em;
+	    margin:180px auto 50px;
+	    line-height:1.3em;
+	}
+}
+
+
+// CONTENT styling
+.content {
+  padding: 20px 0;
+}
+
+section#about{
+  background-color:@lightBrown;
+  padding-top:50px;
+  .content{
+    .widthfloat(45%);
+  }
+  #image{
+    .widthfloat(45%);
+  	margin:40px 60px 0 0;
+  	float:right;
+  	width:320px;
+  	border:10px solid @cream;
+  }
+}
+
+// footer styling
+footer#footer{
+  background-color:@darkBrown;
+  padding:15px 0 0 0;
+  font-size:0.75em;
+}
+//////////////////////        INDEX finish  ////////////////
+
+#Hero{
+	background-image:url('../images/contact/background.jpg');
+	background-size: cover;
+	background-position:top;
+	height:660px;
+}
+label{
+    .widthfloat(100%);
+    .labelstyle{
+		display:inline-block;
+	    padding:7px;
+	    margin:7px 0;
+	    width:25%;
+	    background-color:@lightBrown;
+	    color:@darkBrown;
+	}
+    input[type="text"]{
+        -webkit-appearance: none;
+        -moz-appearance:none;
+        width:50%;
+        border: 1px solid @darkBrown;
+        color:#fff;
+        font-family:@bodyFont;
+        padding:12px;
+        margin-left:-5px;
+        text-transform:uppercase;
+      }
+
+    input[type="submit"]{
+      -webkit-appearance: none;
+      -moz-appearance:none;
+      .widthfloat(50%);
+      font-family:@titleFont;
+      text-transform:uppercase;
+      padding:15px;
+      background-color:@darkBrown;
+      border:0 none;
+      color:@cream;
+      cursor:pointer;
+      margin-left:215px;
+    }
+}
+#form{
+	margin:150px 0 0 100px;
+	.widthfloat(60%);
+	border-right: 2px solid @lightBrown;
+	h2{
+	color:@darkBrown
+	}
+	p{
+	font-family:@titleFont;
+	color:@darkBrown;
+	font-size:1.1em;
+	margin:0;
+	}
+}
+
+#side{
+	color:@darkBrown;
+	text-align:left;
+	margin: 170px 0 0 0;
+	.widthfloat(25%);
+	padding:10px;
+	h3{
+		margin-top:40px;
+		border-bottom:1px solid @lightBrown;
+	}
+	p{
+		padding:0;
+		font-size:0.85em;
+		margin:0;
+	}
+}
+
+/////////////////////        contact finish  ////////////////
+
+
+section#gallery, section#gallery3{
+  height:650px;
+  background-color:@darkBrown;
+  h1{
+  	padding-top:140px;
+  }
+  ul li{
+    .widthfloat(30%);
+    margin: 7% 1% 7% 0;
+    img{
+    width:100%;
+    border:10px solid @cream;
+    }
+  }
+}
+
+section#gallery2, section#gallery4{
+	height:630px;
+	background-color:@cream;
+ 	h1{
+  		padding-top:140px;
+  		color:@darkBrown;
+  	}
+  	ul li{
+	    .widthfloat(30%);
+	    margin: 7% 1% 7% 0;
+	    img{
+	    	width:100%;
+	    	border:10px solid @darkBrown;
+		}
+  	}
+}
+
+
+//////////////////////        DESKTOP finish  ////////////////
+
+//////////////////////        TABLET start  /////////////////
+
+// tablet
+@media only screen and (max-width: 1024px) {
+  	.container {
+   		padding: 10px 0px;
+    	width: 95%;
+  	}
+	.logo{
+    margin-top:-10px;
+    }
+
+	header#intro{
+ 		margin-top:-20px;
+	    h1.headline{
+	      .widthfloat(100%);
+	    }
+	}
+	//form 
+	#Hero input[type="submit"]{
+      margin-left:195px;
+    }
+}
+
+
+//////////////////////        PHONE start  ///////////////////
+
+
+
+// for phone
+@media only screen and (max-width: 600px) and (min-width: 320px) {
+	.container{
+		max-width: 95%;
+	}
+	header#intro{
+		height:500px;
+		h1.headline{
+  			font-size:2.75em;
+		}
+	}
+	
+	h2{
+		font-size:2em;
+	}
+	#nav{
+	  	.menuButton{
+	  		margin:10px 10px 0 0;
+	  		.widthfloat(40%);
+			height:32px;
+			text-align: right;
+			}
+		#mainNav{
+			display:none;
+			.widthfloat(100%);
+			ul{
+				padding: 5px 0;
+				&:hover li{
+					display:block;
+				}
+				li{
+					display:block;
+					padding:0;
+				}
+				.current{
+					display: block;
+				}
+				a{
+					display: block;
+					width: 100%;
+					text-align: center;
+					border-top: 1px solid #fff;
+					padding: 20px 0;
+				}
+				
+			}
+		}
+		#socialMedia{
+			.widthfloat(55%);
+			height:30px;
+	  	}
+	}
+
+	section#about{
+	  padding-top:10px;
+	  padding-bottom:10px;
+	  .content{
+	    .widthfloat(100%);
+	  }
+	  #image{
+	  	margin:-20px 10px 10px 0;
+	  	width:320px;
+	  }
+	}
+// form
+	section#Hero{
+		background-Image:none;
+
+    #form{
+      .widthfloat(95%);
+      margin:90px 0 10px 0;
+      border-right:none;
+      label{
+        .labelstyle{
+          .widthfloat(100%);
+          padding:5px;
+        }
+        input[type="text"]{
+          padding:25px;
+          width:100%;
+          margin:0;
+        }
+      }
+      input[type="submit"]{
+        .widthfloat(100%);
+        margin:10px 0 20px 0;
+      }
+    }
+    #side{
+    .widthfloat(95%);
+    text-align:center;
+    margin-top:-30px;
+    }
+   }
+
+// menu
+   section#gallery2, section#gallery4{
+	.container{
+		.widthfloat(95%);
+	}
+	height:780px;
+
+ 	h1{
+ 		font-size:1.75em;
+ 		text-shadow:none;
+  		padding:30px 0;
+  	}
+  	ul li{
+	    .widthfloat(100%);
+	    margin: 2% 0 2% 0;
+	    img{
+	    	width:80%;
+		}
+  	}
+}
+section#gallery, section#gallery3{
+	.container{
+		.widthfloat(95%);
+	}
+	height:780px;
+	#space{
+	padding-top:40px;
+	}
+	h1{
+ 		font-size:1.75em;
+ 		text-shadow:none;
+  		padding:40px 0 20px 0;
+  	}
+  	ul li{
+	    .widthfloat(100%);
+	    margin: 2% 0 2% 0;
+	    img{
+	    	width:80%;
+		}
+  	}
+}
+}
+	
+
