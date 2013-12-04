@@ -120,16 +120,17 @@ body {
   border-bottom: 5px solid #2c2012;
 }
 header#intro {
-  background-image: url('../images/index/background.jpg');
+  background-image: url('../images/index/socialeating.jpg');
   background-size: cover;
   background-position: centre;
   height: 680px;
 }
 header#intro h1.headline {
   width: 60%;
-  font-size: 3.3em;
-  margin: 180px auto 50px;
+  font-size: 5em;
+  margin: 160px auto 50px;
   line-height: 1.3em;
+  color: orange;
 }
 .content {
   padding: 20px 0;
