@@ -120,10 +120,10 @@ body {
   border-bottom: 5px solid #2c2012;
 }
 header#intro {
-  background-image: url('../images/index/socialeating.jpg');
+  background-image: url('../images/index/socialeating2.jpg');
   background-size: cover;
   background-position: centre;
-  height: 680px;
+  height: 780px;
 }
 header#intro h1.headline {
   width: 60%;
